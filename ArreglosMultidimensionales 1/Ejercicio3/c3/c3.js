@@ -1,0 +1,11 @@
+/*3. Dado el arreglo [ [ [0], [2, 77] ], [ ["&", true, "!!"], [[88]] ], [ [ [ [1] ] ] ], "¿" ]
+
+c) Leer e imprimir el elemento 77.*/
+
+let arregloDimension3 = [ 
+    [ [0], [2, 77] ], 
+    [ ["&", true, "!!"], [[88]] ], 
+    [ [ [ [1] ] ] ], "¿" 
+];
+
+console.log(arregloDimension3[0][1][1]);
